@@ -1,0 +1,15 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\Root Interactive\\Documents\\Unity\\Quantum-computer\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Quantum-computer [Testing]"
+        }
+      }
+    }
+  ]
+}
