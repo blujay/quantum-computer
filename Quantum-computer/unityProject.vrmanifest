@@ -2,9 +2,10 @@
   "source": "Unity",
   "applications": [
     {
+      "app_key": "application.generated.unity.holonspace.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\Root Interactive\\Documents\\Unity\\Quantum-computer\\actions.json",
+      "action_manifest_path": "C:\\Users\\Root Interactive\\Documents\\Unity\\QuantumComputer\\Quantum-computer\\actions.json",
       "strings": {
         "en_us": {
           "name": "Quantum-computer [Testing]"
