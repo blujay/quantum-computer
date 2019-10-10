@@ -9,9 +9,9 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: gold-lighter
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _ENABLE_GEOMETRIC_SPECULAR_AA _MATERIAL_FEATURE_SUBSURFACE_SCATTERING
+  m_ShaderKeywords: _EMISSION _ENABLE_GEOMETRIC_SPECULAR_AA _MATERIAL_FEATURE_SUBSURFACE_SCATTERING
     _MATERIAL_FEATURE_TRANSMISSION _NORMALMAP_TANGENT_SPACE
-  m_LightmapFlags: 4
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -197,7 +197,7 @@ Material:
     - _EnableSpecularOcclusion: 0
     - _EnergyConservingSpecularColor: 1
     - _GlossMapScale: 1
-    - _Glossiness: 1
+    - _Glossiness: 0.62
     - _GlossyReflections: 1
     - _HdrpVersion: 2
     - _HeightAmplitude: 0.02
@@ -215,7 +215,7 @@ Material:
     - _IridescenceThickness: 1
     - _LinkDetailsWithBase: 1
     - _MaterialID: 0
-    - _Metallic: 0.88
+    - _Metallic: 0.66
     - _Mode: 0
     - _NormalMapSpace: 0
     - _NormalScale: 1
@@ -275,10 +275,10 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.9433962, g: 0.77626073, b: 0.38714847, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.9433962, g: 0.8056621, b: 0.493948, a: 1}
+    - _Color: {r: 0.29169634, g: 0.38295552, b: 0.6509434, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0.009656467, g: 0.009656467, b: 0.2924528, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
