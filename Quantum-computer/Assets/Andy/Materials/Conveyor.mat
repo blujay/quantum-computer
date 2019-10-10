@@ -59,7 +59,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex:
-        m_Texture: {fileID: 2800000, guid: 9a6a697464b45ca4fa13327e7359e7a5, type: 3}
+        m_Texture: {fileID: 2800000, guid: f953b4ec1bb0a834cadc594cf2a5bca0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample0:
@@ -124,7 +124,7 @@ Material:
     - _ScanlinesspeedZ: -5
     - _ScrollOffset: 1
     - _Scrolling: 1
-    - _ScrollingspeedX: -1.21
+    - _ScrollingspeedX: -0.37
     - _ScrollingspeedY: 0
     - _Scrolloffset: 1
     - _Scrollrotate: 0
@@ -156,7 +156,7 @@ Material:
     - __dirty: 1
     - _s: 0
     m_Colors:
-    - _Color: {r: 0.53676474, g: 0.98083156, b: 1, a: 1}
+    - _Color: {r: 0.19120172, g: 0.9559735, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Scanlinespeed: {r: 0, g: -0.1, b: 0, a: 0}
