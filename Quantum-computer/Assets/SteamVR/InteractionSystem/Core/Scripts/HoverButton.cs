@@ -107,5 +107,12 @@ namespace Valve.VR.InteractionSystem
             if (isEngaged && onButtonIsPressed != null)
                 onButtonIsPressed.Invoke(lastHoveredHand);
         }
+
+        [ContextMenu("Test Press")]
+        public void TestPress()
+        {
+            onButtonIsPressed.Invoke(FindObjectOfType<Hand>());
+        }
+
     }
 }
