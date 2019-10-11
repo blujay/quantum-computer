@@ -8,17 +8,18 @@ public class Entangler : MonoBehaviour
     public GameObject Ion1;
     public GameObject Ion2;
 
-    private Station station;
     private TrailRenderer tr;
     private LineRenderer lr;
+
     public bool enabled;
+    public Station station;
     public float frequency = 5f;
     public float wiggle = 0.1f;
     public float wiggleAmount = 1f;
 
     void Start()
     {
-        station = GetComponent<Station>();
+        //station = GetComponent<Station>();
         tr = gameObject.GetComponent<TrailRenderer>();
         lr = gameObject.GetComponent<LineRenderer>();
     }
@@ -50,7 +51,7 @@ public class Entangler : MonoBehaviour
     public void EntangleOn()
     {
         Ion1 = station.SlotList[0].Ion.gameObject;
-        Ion1 = station.SlotList[1].Ion.gameObject;
+        Ion2 = station.SlotList[1].Ion.gameObject;
     }
 
     [ContextMenu("Entangle Off")]
