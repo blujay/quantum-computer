@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 475678}
   - component: {fileID: 3364936}
   - component: {fileID: 2356592}
-  - component: {fileID: 13593758}
+  - component: {fileID: 2125888304016114454}
   m_Layer: 21
   m_Name: teleport_marker_mesh
   m_TagString: Untagged
@@ -398,7 +398,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162288}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.83, z: 0}
   m_LocalScale: {x: 1, y: 0.55561, z: 1}
   m_Children: []
   m_Father: {fileID: 428928}
@@ -450,8 +450,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &13593758
-SphereCollider:
+--- !u!136 &2125888304016114454
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -460,9 +460,10 @@ SphereCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.47625
-  m_Center: {x: 0, y: 0.48375, z: 0}
+  m_Radius: 0.30655557
+  m_Height: 4.2256217
+  m_Direction: 1
+  m_Center: {x: 0, y: 2.195538, z: 0}
 --- !u!1 &189078
 GameObject:
   m_ObjectHideFlags: 0
