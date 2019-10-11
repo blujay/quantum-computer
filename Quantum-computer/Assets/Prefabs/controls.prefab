@@ -1673,7 +1673,7 @@ Transform:
   m_GameObject: {fileID: 4824397671322722759}
   m_LocalRotation: {x: 0.21130913, y: 0.36599812, z: 0.45315394, w: 0.7848855}
   m_LocalPosition: {x: -95.365234, y: -12.486328, z: 30.033203}
-  m_LocalScale: {x: 0.12962477, y: 0.12962468, z: 0.1296247}
+  m_LocalScale: {x: 0.17960808, y: 0.17960796, z: 0.17960797}
   m_Children:
   - {fileID: 7975929738161538543}
   - {fileID: 1008149419651739099}
@@ -1951,11 +1951,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2533300072990325858}
     m_Modifications:
-    - target: {fileID: 7929696040987475296, guid: c1e3d9786a1e2b04f97bc787c12d590b,
-        type: 3}
-      propertyPath: m_Name
-      value: Button-left
-      objectReference: {fileID: 0}
     - target: {fileID: 7928104412133703884, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2011,6 +2006,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 12.715
       objectReference: {fileID: 0}
+    - target: {fileID: 7929696040987475296, guid: c1e3d9786a1e2b04f97bc787c12d590b,
+        type: 3}
+      propertyPath: m_Name
+      value: Button-left
+      objectReference: {fileID: 0}
     - target: {fileID: 1593282246566499168, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2020,16 +2020,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 7595412508749693061, guid: c1e3d9786a1e2b04f97bc787c12d590b,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 393809962772966341, guid: c1e3d9786a1e2b04f97bc787c12d590b,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3900990241248125561, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
@@ -2126,11 +2116,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2533300072990325858}
     m_Modifications:
-    - target: {fileID: 7929696040987475296, guid: c1e3d9786a1e2b04f97bc787c12d590b,
-        type: 3}
-      propertyPath: m_Name
-      value: Button-up
-      objectReference: {fileID: 0}
     - target: {fileID: 7928104412133703884, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2186,6 +2171,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7929696040987475296, guid: c1e3d9786a1e2b04f97bc787c12d590b,
+        type: 3}
+      propertyPath: m_Name
+      value: Button-up
+      objectReference: {fileID: 0}
     - target: {fileID: 1593282246566499168, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2195,16 +2185,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 7595412508749693061, guid: c1e3d9786a1e2b04f97bc787c12d590b,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 393809962772966341, guid: c1e3d9786a1e2b04f97bc787c12d590b,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3900990241248125561, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
@@ -2301,11 +2281,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2533300072990325858}
     m_Modifications:
-    - target: {fileID: 7929696040987475296, guid: c1e3d9786a1e2b04f97bc787c12d590b,
-        type: 3}
-      propertyPath: m_Name
-      value: Button-right
-      objectReference: {fileID: 0}
     - target: {fileID: 7928104412133703884, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2361,6 +2336,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -12.715
       objectReference: {fileID: 0}
+    - target: {fileID: 7929696040987475296, guid: c1e3d9786a1e2b04f97bc787c12d590b,
+        type: 3}
+      propertyPath: m_Name
+      value: Button-right
+      objectReference: {fileID: 0}
     - target: {fileID: 1593282246566499168, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2370,16 +2350,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 7595412508749693061, guid: c1e3d9786a1e2b04f97bc787c12d590b,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 393809962772966341, guid: c1e3d9786a1e2b04f97bc787c12d590b,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3900990241248125561, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
