@@ -117,7 +117,7 @@ namespace Valve.VR.InteractionSystem
         [ContextMenu("Test Button Down")]
         public void TestButtonDown()
         {
-            onButtonDown.Invoke(FindObjectOfType<Hand>());
+            onButtonDown.Invoke(null);
         }
 
         [ContextMenu("Test Button Up")]
