@@ -114,5 +114,18 @@ namespace Valve.VR.InteractionSystem
             onButtonIsPressed.Invoke(FindObjectOfType<Hand>());
         }
 
+        [ContextMenu("Test Button Down")]
+        public void TestButtonDown()
+        {
+            onButtonDown.Invoke(FindObjectOfType<Hand>());
+        }
+
+        [ContextMenu("Test Button Up")]
+        public void TestButtonUp()
+        {
+            onButtonUp.Invoke(FindObjectOfType<Hand>());
+        }
+
+
     }
 }
