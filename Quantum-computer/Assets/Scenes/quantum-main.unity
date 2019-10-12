@@ -1818,7 +1818,7 @@ PrefabInstance:
     - target: {fileID: 212320007, guid: 8117d4d18a487a54fb60dd9051ea6596, type: 3}
       propertyPath: Stations.Array.data[3]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 835284758}
     - target: {fileID: 7798582447829670579, guid: 8117d4d18a487a54fb60dd9051ea6596,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.size
@@ -3327,11 +3327,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ion 4
       objectReference: {fileID: 0}
-    - target: {fileID: 3649379823360815184, guid: 5c01af945d259584389aa694f9519c63,
-        type: 3}
-      propertyPath: CurrentStation
-      value: 
-      objectReference: {fileID: 212320001}
     - target: {fileID: 6182020686816880546, guid: 5c01af945d259584389aa694f9519c63,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3387,6 +3382,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3649379823360815184, guid: 5c01af945d259584389aa694f9519c63,
+        type: 3}
+      propertyPath: CurrentStation
+      value: 
+      objectReference: {fileID: 212320001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c01af945d259584389aa694f9519c63, type: 3}
 --- !u!43 &412783106
@@ -5761,6 +5761,10 @@ PrefabInstance:
       propertyPath: Stations.Array.data[3]
       value: 
       objectReference: {fileID: 835284758}
+    - target: {fileID: 212320006, guid: 8117d4d18a487a54fb60dd9051ea6596, type: 3}
+      propertyPath: CenterMarker
+      value: 
+      objectReference: {fileID: 212319991}
     - target: {fileID: 633522592738016165, guid: 8117d4d18a487a54fb60dd9051ea6596,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -6266,10 +6270,6 @@ PrefabInstance:
       propertyPath: m_SelectedVertices.Array.data[3]
       value: 103
       objectReference: {fileID: 0}
-    - target: {fileID: 212320006, guid: 8117d4d18a487a54fb60dd9051ea6596, type: 3}
-      propertyPath: CenterMarker
-      value: 
-      objectReference: {fileID: 212319991}
     m_RemovedComponents:
     - {fileID: 212320007, guid: 8117d4d18a487a54fb60dd9051ea6596, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8117d4d18a487a54fb60dd9051ea6596, type: 3}
@@ -9135,11 +9135,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ion 3
       objectReference: {fileID: 0}
-    - target: {fileID: 3649379823360815184, guid: 5c01af945d259584389aa694f9519c63,
-        type: 3}
-      propertyPath: CurrentStation
-      value: 
-      objectReference: {fileID: 212320001}
     - target: {fileID: 6182020686816880546, guid: 5c01af945d259584389aa694f9519c63,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9195,6 +9190,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3649379823360815184, guid: 5c01af945d259584389aa694f9519c63,
+        type: 3}
+      propertyPath: CurrentStation
+      value: 
+      objectReference: {fileID: 212320001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c01af945d259584389aa694f9519c63, type: 3}
 --- !u!43 &1334990450
@@ -9762,11 +9762,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ion 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3649379823360815184, guid: 5c01af945d259584389aa694f9519c63,
-        type: 3}
-      propertyPath: CurrentStation
-      value: 
-      objectReference: {fileID: 212320001}
     - target: {fileID: 6182020686816880546, guid: 5c01af945d259584389aa694f9519c63,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9822,6 +9817,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3649379823360815184, guid: 5c01af945d259584389aa694f9519c63,
+        type: 3}
+      propertyPath: CurrentStation
+      value: 
+      objectReference: {fileID: 212320001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c01af945d259584389aa694f9519c63, type: 3}
 --- !u!43 &1501480222
@@ -10590,11 +10590,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ion 2
       objectReference: {fileID: 0}
-    - target: {fileID: 3649379823360815184, guid: 5c01af945d259584389aa694f9519c63,
-        type: 3}
-      propertyPath: CurrentStation
-      value: 
-      objectReference: {fileID: 212320001}
     - target: {fileID: 6182020686816880546, guid: 5c01af945d259584389aa694f9519c63,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10650,6 +10645,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3649379823360815184, guid: 5c01af945d259584389aa694f9519c63,
+        type: 3}
+      propertyPath: CurrentStation
+      value: 
+      objectReference: {fileID: 212320001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c01af945d259584389aa694f9519c63, type: 3}
 --- !u!1 &1680788135
