@@ -9,8 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Movie Material
   m_Shader: {fileID: 4800000, guid: 7f678362d077aea47a543329ff703ee7, type: 3}
-  m_ShaderKeywords: _COLORMODE_HUESHIFT _GLOBALEMISSIONFLICKER_ON _SCANLINESY_ON _SCROLLROTATE_NONE
-    _SHARPX_ON _SHARPZ_ON _VERTICALSTRETCH_ON
+  m_ShaderKeywords: _COLORMODE_HUESHIFT _SCANLINESY_ON _SCROLLROTATE_NONE _SHARPZ_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -70,7 +69,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Globalemissionflicker: 1
+    - _Globalemissionflicker: 0
     - _Globalemissionflickeramplitude: 18.25
     - _Globalemissionflickerfreq: 27.07
     - _Globalemissionflickeroffset: 3
@@ -90,20 +89,20 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RotationSpeed: 1
+    - _RotationSpeed: 0
     - _ScanlinesX: 0
     - _ScanlinesY: 1
     - _ScanlinesZ: 0
-    - _ScanlinesscaleX: 30
-    - _ScanlinesscaleY: 1111
+    - _ScanlinesscaleX: 1079
+    - _ScanlinesscaleY: 1266.8
     - _ScanlinesscaleZ: 30
-    - _ScanlinesspeedX: -5
-    - _ScanlinesspeedY: 11
+    - _ScanlinesspeedX: 0.05
+    - _ScanlinesspeedY: 0.1
     - _ScanlinesspeedZ: -5
     - _ScrollingspeedX: 0
-    - _ScrollingspeedY: -0.1
+    - _ScrollingspeedY: -0.05
     - _Scrollrotate: 2
-    - _SharpX: 1
+    - _SharpX: 0
     - _SharpY: 0
     - _SharpZ: 1
     - _SmoothnessTextureChannel: 0
@@ -114,7 +113,7 @@ Material:
     - _Verticalmovementamplitude: 0.5
     - _Verticalmovementfreq: 1
     - _Verticalmovementoffset: 0
-    - _Verticalstretch: 1
+    - _Verticalstretch: 0
     - _Verticalstretchamplitude: 0.184
     - _Verticalstretchfreq: 0.5
     - _Verticalstretchoffset: 0.3
@@ -122,7 +121,7 @@ Material:
     - _ZWrite: 1
     - __dirty: 1
     m_Colors:
-    - _Color: {r: 0.0503352, g: 0.051470578, b: 0.05034303, a: 1}
+    - _Color: {r: 0.7311321, g: 1, b: 0.77951086, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}

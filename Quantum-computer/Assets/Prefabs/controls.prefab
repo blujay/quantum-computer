@@ -1951,6 +1951,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2533300072990325858}
     m_Modifications:
+    - target: {fileID: 7929696040987475296, guid: c1e3d9786a1e2b04f97bc787c12d590b,
+        type: 3}
+      propertyPath: m_Name
+      value: Button-left
+      objectReference: {fileID: 0}
     - target: {fileID: 7928104412133703884, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2006,11 +2011,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 12.715
       objectReference: {fileID: 0}
-    - target: {fileID: 7929696040987475296, guid: c1e3d9786a1e2b04f97bc787c12d590b,
-        type: 3}
-      propertyPath: m_Name
-      value: Button-left
-      objectReference: {fileID: 0}
     - target: {fileID: 1593282246566499168, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2030,6 +2030,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724586543853236758, guid: c1e3d9786a1e2b04f97bc787c12d590b,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3900990241248125561, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
@@ -2157,6 +2162,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2533300072990325858}
     m_Modifications:
+    - target: {fileID: 7929696040987475296, guid: c1e3d9786a1e2b04f97bc787c12d590b,
+        type: 3}
+      propertyPath: m_Name
+      value: Button-up
+      objectReference: {fileID: 0}
     - target: {fileID: 7928104412133703884, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2212,11 +2222,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7929696040987475296, guid: c1e3d9786a1e2b04f97bc787c12d590b,
-        type: 3}
-      propertyPath: m_Name
-      value: Button-up
-      objectReference: {fileID: 0}
     - target: {fileID: 1593282246566499168, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2236,6 +2241,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724586543853236758, guid: c1e3d9786a1e2b04f97bc787c12d590b,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3900990241248125561, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
@@ -2363,6 +2373,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2533300072990325858}
     m_Modifications:
+    - target: {fileID: 7929696040987475296, guid: c1e3d9786a1e2b04f97bc787c12d590b,
+        type: 3}
+      propertyPath: m_Name
+      value: Button-right
+      objectReference: {fileID: 0}
     - target: {fileID: 7928104412133703884, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2418,11 +2433,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -12.715
       objectReference: {fileID: 0}
-    - target: {fileID: 7929696040987475296, guid: c1e3d9786a1e2b04f97bc787c12d590b,
-        type: 3}
-      propertyPath: m_Name
-      value: Button-right
-      objectReference: {fileID: 0}
     - target: {fileID: 1593282246566499168, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2442,6 +2452,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724586543853236758, guid: c1e3d9786a1e2b04f97bc787c12d590b,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3900990241248125561, guid: c1e3d9786a1e2b04f97bc787c12d590b,
         type: 3}
