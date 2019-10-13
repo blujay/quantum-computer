@@ -7606,6 +7606,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Initial Movie Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8426512802009489646, guid: 2de826ee112091246b7d20c01b4726c3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8422981451124393894, guid: 2de826ee112091246b7d20c01b4726c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7685,8 +7690,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: 86b833cb0f00b7848ab376559008a58c,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 9157859022515360723, guid: 2de826ee112091246b7d20c01b4726c3,
         type: 3}
       propertyPath: m_Mesh
@@ -10352,7 +10356,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: 86b833cb0f00b7848ab376559008a58c,
+      objectReference: {fileID: 32900000, guid: f9fb8afddc46de24eb03a990df3740a8,
         type: 3}
     - target: {fileID: 9157859022515360723, guid: 2de826ee112091246b7d20c01b4726c3,
         type: 3}
