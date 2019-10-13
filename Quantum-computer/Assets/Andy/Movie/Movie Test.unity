@@ -168,7 +168,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: 86b833cb0f00b7848ab376559008a58c,
+      objectReference: {fileID: 32900000, guid: 810d0ba5f57531340805a9467d9495af,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 741cb79ee866fcb488c0b193e88c9056, type: 3}
@@ -348,8 +348,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764223819}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.09802537, y: 0.06563292, z: -0.0064789, w: 0.99299616}
+  m_LocalPosition: {x: -0.4025665, y: 0.4767804, z: -2.2098546}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
