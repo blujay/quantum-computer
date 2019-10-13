@@ -11,7 +11,6 @@ public class Entangler : MonoBehaviour
     private TrailRenderer tr;
     private LineRenderer lr;
 
-    public bool enabled;
     public Station station;
     public float frequency = 5f;
     public float wiggle = 0.1f;
@@ -26,7 +25,7 @@ public class Entangler : MonoBehaviour
 
     void Update()
     {
-        if (!enabled || Ion1 == null || Ion2 == null)
+        if (Ion1 == null || Ion2 == null)
         {
             tr.emitting = false;
             lr.enabled = false;

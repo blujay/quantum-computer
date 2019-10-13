@@ -10,6 +10,7 @@ Material:
   m_Name: Movie Material
   m_Shader: {fileID: 4800000, guid: 7f678362d077aea47a543329ff703ee7, type: 3}
   m_ShaderKeywords: _COLORMODE_HUESHIFT _SCANLINESY_ON _SCROLLROTATE_NONE _SHARPZ_ON
+    _VERTICALSTRETCH_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -93,10 +94,10 @@ Material:
     - _ScanlinesX: 0
     - _ScanlinesY: 1
     - _ScanlinesZ: 0
-    - _ScanlinesscaleX: 1079
+    - _ScanlinesscaleX: 500
     - _ScanlinesscaleY: 1266.8
     - _ScanlinesscaleZ: 30
-    - _ScanlinesspeedX: 0.05
+    - _ScanlinesspeedX: 0
     - _ScanlinesspeedY: 0.1
     - _ScanlinesspeedZ: -5
     - _ScrollingspeedX: 0
@@ -113,9 +114,9 @@ Material:
     - _Verticalmovementamplitude: 0.5
     - _Verticalmovementfreq: 1
     - _Verticalmovementoffset: 0
-    - _Verticalstretch: 0
-    - _Verticalstretchamplitude: 0.184
-    - _Verticalstretchfreq: 0.5
+    - _Verticalstretch: 1
+    - _Verticalstretchamplitude: 0.05
+    - _Verticalstretchfreq: 0.75
     - _Verticalstretchoffset: 0.3
     - _Verticalstretchpivotpoint: 0
     - _ZWrite: 1
