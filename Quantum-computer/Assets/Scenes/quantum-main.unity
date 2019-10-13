@@ -10463,7 +10463,7 @@ PrefabInstance:
     - target: {fileID: 8422981451124393894, guid: 2de826ee112091246b7d20c01b4726c3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.00097656
       objectReference: {fileID: 0}
     - target: {fileID: 8422981451124393894, guid: 2de826ee112091246b7d20c01b4726c3,
         type: 3}
@@ -10518,7 +10518,7 @@ PrefabInstance:
     - target: {fileID: 8422981451124393894, guid: 2de826ee112091246b7d20c01b4726c3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.5903
       objectReference: {fileID: 0}
     - target: {fileID: 8422981451124393894, guid: 2de826ee112091246b7d20c01b4726c3,
         type: 3}
@@ -10539,8 +10539,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: f9fb8afddc46de24eb03a990df3740a8,
+      objectReference: {fileID: 32900000, guid: 1d052b6c29d580149bb968ce5e938018,
         type: 3}
+    - target: {fileID: 8099146842759652714, guid: 2de826ee112091246b7d20c01b4726c3,
+        type: 3}
+      propertyPath: m_Looping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9157859022515360723, guid: 2de826ee112091246b7d20c01b4726c3,
         type: 3}
       propertyPath: m_Mesh
@@ -10550,7 +10555,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1266314332}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2de826ee112091246b7d20c01b4726c3, type: 3}
 --- !u!1 &794688214 stripped
