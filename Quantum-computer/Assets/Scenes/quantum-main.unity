@@ -3782,6 +3782,21 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1219614011}
+    - target: {fileID: 1420317627828368218, guid: 8117d4d18a487a54fb60dd9051ea6596,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788870486839803150, guid: 8117d4d18a487a54fb60dd9051ea6596,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5295842999393086039, guid: 8117d4d18a487a54fb60dd9051ea6596,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8117d4d18a487a54fb60dd9051ea6596, type: 3}
 --- !u!4 &212319991 stripped
@@ -7948,6 +7963,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 832692195}
+    - target: {fileID: 8489299603598973750, guid: 2de826ee112091246b7d20c01b4726c3,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2de826ee112091246b7d20c01b4726c3, type: 3}
 --- !u!43 &559669073
@@ -8282,7 +8302,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-886066
+  m_Name: pb_Mesh-58052
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10620,6 +10640,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1266314332}
+    - target: {fileID: 8489299603598973750, guid: 2de826ee112091246b7d20c01b4726c3,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2de826ee112091246b7d20c01b4726c3, type: 3}
 --- !u!1 &794688214 stripped
@@ -10634,7 +10659,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-885958
+  m_Name: pb_Mesh-57932
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13036,6 +13061,21 @@ PrefabInstance:
       propertyPath: m_SelectedVertices.Array.data[3]
       value: 103
       objectReference: {fileID: 0}
+    - target: {fileID: 1420317627828368218, guid: 8117d4d18a487a54fb60dd9051ea6596,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788870486839803150, guid: 8117d4d18a487a54fb60dd9051ea6596,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5295842999393086039, guid: 8117d4d18a487a54fb60dd9051ea6596,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 212320007, guid: 8117d4d18a487a54fb60dd9051ea6596, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8117d4d18a487a54fb60dd9051ea6596, type: 3}
@@ -15144,7 +15184,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-886052
+  m_Name: pb_Mesh-58036
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18574,7 +18614,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-886040
+  m_Name: pb_Mesh-58024
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -27042,7 +27082,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-885918
+  m_Name: pb_Mesh-57886
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -28178,7 +28218,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-885948
+  m_Name: pb_Mesh-57922
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
