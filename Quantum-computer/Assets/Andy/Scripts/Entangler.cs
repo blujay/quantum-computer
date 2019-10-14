@@ -49,8 +49,11 @@ public class Entangler : MonoBehaviour
     [ContextMenu("Entangle On")]
     public void EntangleOn()
     {
-        Ion1 = station.SlotList[0].Ion.gameObject;
-        Ion2 = station.SlotList[1].Ion.gameObject;
+        if (station.SlotList[0]!=null && station.SlotList[0]!=null)
+        {
+            Ion1 = station.SlotList[0].Ion.gameObject;
+            Ion2 = station.SlotList[1].Ion.gameObject;
+        }
     }
 
     [ContextMenu("Entangle Off")]
