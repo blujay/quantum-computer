@@ -7,6 +7,11 @@ public class StationManager : MonoBehaviour
 
     void Start()
     {
+        Reset();
+    }
+
+    public void Reset()
+    {
         foreach (var station in Stations)
         {
             station.CenterMarker = transform;

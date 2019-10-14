@@ -16,6 +16,11 @@ public class IonController : MonoBehaviour
 
     void Start()
     {
+        Reset();
+    }
+
+    public void Reset()
+    {
         var slot = CurrentStation.GetFirstFreeSlot();
         transform.position = slot.transform.position;
         CurrentStation.PushIon(this);
