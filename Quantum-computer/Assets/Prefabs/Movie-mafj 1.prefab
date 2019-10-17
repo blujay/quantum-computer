@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8422981451124393894}
   - component: {fileID: 8099146842759652714}
   m_Layer: 0
-  m_Name: Movie-mafj
+  m_Name: Movie-mafj 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108,7 +108,8 @@ AudioSource:
   m_GameObject: {fileID: 8426678731258379802}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3800332268890284713, guid: c32065f65691d40a89249db43f2b30d3,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -370,7 +371,7 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3170977842232576411, guid: dd0c0e09c3ccdb74e9cad6744beac346,
+    - target: {fileID: 5958453714795615399, guid: dd0c0e09c3ccdb74e9cad6744beac346,
         type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3065,7 +3066,7 @@ PrefabInstance:
       propertyPath: m_Tangents.Array.data[56].x
       value: -0.99999815
       objectReference: {fileID: 0}
-    - target: {fileID: 5958453714795615399, guid: dd0c0e09c3ccdb74e9cad6744beac346,
+    - target: {fileID: 3170977842232576411, guid: dd0c0e09c3ccdb74e9cad6744beac346,
         type: 3}
       propertyPath: m_Mesh
       value: 

@@ -822,6 +822,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 426192855747837369, guid: 168dc144138352a44b8dea928c77bbab,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 23993425795912362, guid: 168dc144138352a44b8dea928c77bbab,
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -901,11 +906,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SelectedVertices.Array.size
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 426192855747837369, guid: 168dc144138352a44b8dea928c77bbab,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8888726590976893061, guid: 168dc144138352a44b8dea928c77bbab,
         type: 3}
@@ -1130,6 +1130,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 426192855747837369, guid: 168dc144138352a44b8dea928c77bbab,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 23993425795912362, guid: 168dc144138352a44b8dea928c77bbab,
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -1210,20 +1215,15 @@ PrefabInstance:
       propertyPath: m_SelectedVertices.Array.size
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1464280446897812586, guid: 168dc144138352a44b8dea928c77bbab,
-        type: 3}
-      propertyPath: m_Text
-      value: Holding Zone
-      objectReference: {fileID: 0}
-    - target: {fileID: 426192855747837369, guid: 168dc144138352a44b8dea928c77bbab,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8888726590976893061, guid: 168dc144138352a44b8dea928c77bbab,
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1464280446897812586, guid: 168dc144138352a44b8dea928c77bbab,
+        type: 3}
+      propertyPath: m_Text
+      value: Holding Zone
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 168dc144138352a44b8dea928c77bbab, type: 3}
@@ -1680,6 +1680,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 426192855747837369, guid: 168dc144138352a44b8dea928c77bbab,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 23993425795912362, guid: 168dc144138352a44b8dea928c77bbab,
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -1760,20 +1765,15 @@ PrefabInstance:
       propertyPath: m_SelectedVertices.Array.size
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1464280446897812586, guid: 168dc144138352a44b8dea928c77bbab,
-        type: 3}
-      propertyPath: m_Text
-      value: Loading Zone
-      objectReference: {fileID: 0}
-    - target: {fileID: 426192855747837369, guid: 168dc144138352a44b8dea928c77bbab,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8888726590976893061, guid: 168dc144138352a44b8dea928c77bbab,
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1464280446897812586, guid: 168dc144138352a44b8dea928c77bbab,
+        type: 3}
+      propertyPath: m_Text
+      value: Loading Zone
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 168dc144138352a44b8dea928c77bbab, type: 3}
