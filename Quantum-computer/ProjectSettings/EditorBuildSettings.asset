@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/quantum-main.unity
+    guid: 4759d549e21c4d042a41a26c35ce1bf7
   m_configObjects: {}
