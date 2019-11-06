@@ -15,7 +15,7 @@ using UnityEngine;
 		Debug.Log(sources.Length);
 		foreach(AudioSource audioSource in sources)
 		{
-			Debug.Log("source: " + audioSource.name + "  parent: " + audioSource.transform.parent.name + "  root: " + audioSource.transform.root.name);
+			//Debug.Log("source: " + audioSource.name + "  parent: " + audioSource.transform.parent.name + "  root: " + audioSource.transform.root.name);
 			if (audioSource.outputAudioMixerGroup != null) {
 				Debug.Log("output: " + audioSource.outputAudioMixerGroup.name);
 			} else {

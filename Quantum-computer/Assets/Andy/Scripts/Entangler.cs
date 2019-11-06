@@ -16,11 +16,14 @@ public class Entangler : MonoBehaviour
     public float wiggle = 0.1f;
     public float wiggleAmount = 1f;
 
+    private AudioSource entangleAudioSource;
+
     void Start()
     {
         //station = GetComponent<Station>();
         tr = gameObject.GetComponent<TrailRenderer>();
         lr = gameObject.GetComponent<LineRenderer>();
+        entangleAudioSource = gameObject.GetComponent<AudioSource>();
     }
 
     void Update()
@@ -29,11 +32,14 @@ public class Entangler : MonoBehaviour
         {
             tr.emitting = false;
             lr.enabled = false;
+            entangleAudioSource.Stop();
             return;
         }
 
         tr.emitting = true;
         lr.enabled = true;
+        
+        if(!entangleAudioSource.isPlaying) entangleAudioSource.Play();
 
         lr.SetPosition(0, Ion1.transform.position);
         lr.SetPosition(1, Ion2.transform.position);

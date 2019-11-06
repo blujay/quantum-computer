@@ -12,7 +12,7 @@ Material:
   m_ShaderKeywords: _COLORMODE_REPLACE _EMISSION _NOTRANSPARENCY_ON _OFFSETSCROLL_SCROLL
     _SCANLINESX_ON _SCANLINESY_ON _SCROLLING_ON _SCROLLOFFSET_OFFSET _SCROLLOFFSET_ON
     _SCROLLROTATE_SCROLL _SHARPX_ON _SHARPY_ON _SHARPZ_ON _S_OFFSET _TINTTEXTURE_DONTTINT
-    _TINTTEXTURE_MULTIPLY _TINTTEXTURE_ON
+    _TINTTEXTURE_MULTIPLY _TINTTEXTURE_ON _VERTICALSTRETCH_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -146,7 +146,7 @@ Material:
     - _Verticalmovementoffset: 0
     - _Verticaloffset: 0
     - _Verticalphase: 88888
-    - _Verticalstretch: 0
+    - _Verticalstretch: 1
     - _Verticalstretchamplitude: 0.05
     - _Verticalstretchfreq: 2
     - _Verticalstretchoffset: 0
@@ -155,7 +155,7 @@ Material:
     - __dirty: 1
     - _s: 0
     m_Colors:
-    - _Color: {r: 1.1, g: 0.66, b: 0, a: 1}
+    - _Color: {r: 4.5412054, g: 2.7342336, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Scanlinespeed: {r: 0, g: -0.1, b: 0, a: 0}
