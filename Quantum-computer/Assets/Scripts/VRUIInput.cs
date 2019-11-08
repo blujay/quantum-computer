@@ -7,6 +7,8 @@ using Valve.VR.InteractionSystem;
 public class VRUIInput : MonoBehaviour
 {
 
+
+    private Transform player;
     private QuantumVR_LaserPointer laserPointer;
     private HoverButton lastButton;
     private Hand hand;
@@ -14,6 +16,7 @@ public class VRUIInput : MonoBehaviour
 
     void Awake()
     {
+        player = gameObject.GetComponentInParent<Player>().transform;
         hand = gameObject.GetComponent<Hand>();
         laserPointer = gameObject.GetComponent<QuantumVR_LaserPointer>();
         laserPointer.PointerClick += PointerClick;
@@ -23,11 +26,21 @@ public class VRUIInput : MonoBehaviour
 
     public void PointerClick(object sender, PointerEventArgs e)
     {
+        var tp = e.target.parent.GetComponent<TeleportPoint>();
+        if (tp != null)
+        {
+            tp.Highlight(true);
+            player.positionTo(5f, tp.transform.position);
+            player.rotationTo(5f, tp.transform.rotation);
+        }
+
         var button = e.target.GetComponent<HoverButton>();
-        if (button==null) return;
-        button.onButtonDown.Invoke(hand);
-        lastButton = button;
-        Invoke(nameof(AfterClick), 0.25f);
+        if (button != null)
+        {
+            button.onButtonDown.Invoke(hand);
+            lastButton = button;
+            Invoke(nameof(AfterClick), 0.25f);
+        }
     }
 
     public void AfterClick()
@@ -37,6 +50,11 @@ public class VRUIInput : MonoBehaviour
 
     public void PointerIn(object sender, PointerEventArgs e)
     {
+        var tp = e.target.parent.GetComponent<TeleportPoint>();
+        if (tp != null)
+        {
+            tp.Highlight(true);
+        }
         var button = e.target.GetComponent<HoverButton>();
         if (button==null) return;
         lastButton = button;
@@ -45,6 +63,11 @@ public class VRUIInput : MonoBehaviour
     }
 
     public void PointerOut(object sender, PointerEventArgs e) {
+        var tp = e.target.parent.GetComponent<TeleportPoint>();
+        if (tp != null)
+        {
+            tp.Highlight(false);
+        }
         var button = e.target.GetComponent<HoverButton>();
         if (button==null) return;
         lastButton.transform.GetChild(0).gameObject.SetActive(false);
