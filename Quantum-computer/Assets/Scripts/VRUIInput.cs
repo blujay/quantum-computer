@@ -22,6 +22,7 @@ public class VRUIInput : MonoBehaviour
         laserPointer.PointerClick += PointerClick;
         laserPointer.PointerIn += PointerIn;
         laserPointer.PointerOut += PointerOut;
+        Go.defaultEaseType = GoEaseType.QuintInOut;
     }
 
     public void PointerClick(object sender, PointerEventArgs e)
@@ -29,9 +30,8 @@ public class VRUIInput : MonoBehaviour
         var tp = e.target.parent.GetComponent<TeleportPoint>();
         if (tp != null)
         {
-            tp.Highlight(true);
-            player.positionTo(5f, tp.transform.position);
-            player.rotationTo(5f, tp.transform.rotation);
+            player.positionTo(1.5f, tp.transform.position);
+            player.rotationTo(1.5f, tp.transform.rotation);
         }
 
         var button = e.target.GetComponent<HoverButton>();
