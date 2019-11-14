@@ -21,9 +21,6 @@ public class GameController : MonoBehaviour
 
     public void Reset()
     {
-        director.time = 0;
-        director.Play();
-        IsPlaying = true;
         entangler.Ion1 = null;
         entangler.Ion2 = null;
         stationManager.Reset();
@@ -41,6 +38,12 @@ public class GameController : MonoBehaviour
             slot.Ion = ions[i];
             ions[i].AnimateTo(slot);
         }
+
+        director.time = 0;
+        director.Play();
+        IsPlaying = true;
+
+
     }
 
     void Update()

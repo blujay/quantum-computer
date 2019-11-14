@@ -38,7 +38,7 @@ public class Entangler : MonoBehaviour
 
         tr.emitting = true;
         lr.enabled = true;
-        
+
         if(!entangleAudioSource.isPlaying) entangleAudioSource.Play();
 
         lr.SetPosition(0, Ion1.transform.position);
